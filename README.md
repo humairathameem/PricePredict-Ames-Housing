@@ -157,14 +157,11 @@ Completed:
 - [x] SalePrice log transformation
 - [x] Numerical feature EDA
 - [x] Categorical feature EDA
-
-Next:
-
-- [ ] Feature engineering
-- [ ] Feature engineering validation
-- [ ] Train-test split
-- [ ] Data preprocessing
-- [ ] Regression models
+- [x] Feature engineering
+- [x] Feature engineering validation
+- [x] Train-test split
+- [x] Data preprocessing
+- [x] Regression models
 - [ ] Model evaluation
 - [ ] Model comparison
 - [ ] Feature importance analysis
