@@ -52,14 +52,14 @@ The project currently follows this workflow:
 6. SalePrice Log Transformation
 7. Numerical Feature EDA
 8. Categorical Feature EDA
-
-Upcoming stages will include:
-
 9. Feature Engineering
 10. Feature Engineering Validation
 11. Train-Test Split
 12. Data Preprocessing
-13. Regression Model Training
+13. Regression Model 
+
+Upcoming stages will include:
+
 14. Model Evaluation
 15. Model Comparison
 16. Feature Importance Analysis
