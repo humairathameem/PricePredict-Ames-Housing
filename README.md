@@ -57,9 +57,6 @@ The project currently follows this workflow:
 11. Train-Test Split
 12. Data Preprocessing
 13. Regression Model 
-
-Upcoming stages will include:
-
 14. Model Evaluation
 15. Model Comparison
 16. Feature Importance Analysis
@@ -162,9 +159,9 @@ Completed:
 - [x] Train-test split
 - [x] Data preprocessing
 - [x] Regression models
-- [ ] Model evaluation
-- [ ] Model comparison
-- [ ] Feature importance analysis
+- [x] Model evaluation
+- [x] Model comparison
+- [x] Feature importance analysis
 
 ---
 
@@ -174,17 +171,22 @@ Completed:
 PricePredict/
 │
 ├── Data/
-│   ├── train.csv
-│   └── test.csv
-│
 ├── Images/
-│   └── EDA visualizations
-│
 ├── Notebooks/
-│   └── PricePredict.ipynb
+│   └── PricePredict_Ames_Housing.ipynb
 │
 ├── Outputs/
+│   ├── model_comparison.csv
+│   ├── feature_importance.csv
+│   └── model_predictions.csv
 │
+├── src/
+│   ├── feature_engineering.py
+│   ├── preprocessing.py
+│   └── modeling.py
+|
 ├── Summary/
-│
-└── README.md
+│   └── Summary/Residential_house_price_prediction_summary.pdf
+├── README.md
+|
+└── .gitignore
